@@ -4,5 +4,8 @@ let x:any =null
 type User = {id:number, name:String}
 let list: object[] =[{id:"hy "}]
 const user:User ={id:1,name:"me"}
+let cid:any = "x"
+let ctid =<number>cid
+
 //x can be changed to anything 
 // tsc --watch index to run file in watch mode
